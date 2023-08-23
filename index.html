@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *,::before,::after{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            padding: 40px;
+        }
+       .content{
+        width: 300px;
+        min-height: 200px;
+        background-color: #fff;
+        box-shadow: 0 0 4px 3px #0000004b;
+        border-radius: 5px;
+        padding: 10px;
+       }
+       .content img{
+        border-radius: 5px;
+        max-height: 200px;
+        object-fit: contain;
+       }
+       .content > *{
+        width: 100%;
+        margin-bottom: 10px;
+       }
+       .content h2{
+        text-transform: uppercase;
+        margin: 10px 0;
+        color: #333;
+       }
+       .content p{
+        color: #777;
+        margin: 10px 0 30px 0;
+       }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <img src="http://localhost:8888/podcast/wp-content/uploads/2023/04/9648321_38772-scaled.jpg"/>
+        <h2>Titre du son</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, nobis?</p>
+        <audio src="http://localhost:8888/podcast/wp-content/uploads/2023/04/onlymp3.to-rainy-lo-fi.-10-min-chill-mix-_0lQw595WiQ-256k-1655592872520-1.mp3" controls></audio>
+    </div>
+</body>
+</html>

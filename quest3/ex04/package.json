@@ -1,0 +1,13 @@
+{
+  "name": "myspaceship",
+  "version": "1.0.0",
+  "description": "quest 3 du langage c de qwasar",
+  "main": "main.js",
+  "scripts": {
+    "build" : "gcc spaceship.c -o main",
+    "run" : "./main",
+    "js" : "nodemon main.js"
+  },
+  "author": "waly le dev",
+  "license": "ISC"
+}
