@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-
+ 
 void printX (int x){
     printf("o");
     for(int i = 0; i < (x - 2); i++){

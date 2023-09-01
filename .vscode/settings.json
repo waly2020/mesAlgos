@@ -1,11 +1,3 @@
 {
-    "files.associations": {
-        "*.ejs": "html",
-        "__bit_reference": "c",
-        "algorithm": "c",
-        "bitset": "c",
-        "chrono": "c",
-        "unordered_map": "c",
-        "format": "c"
-    }
+    "C_Cpp.errorSquiggles": "disabled"
 }
